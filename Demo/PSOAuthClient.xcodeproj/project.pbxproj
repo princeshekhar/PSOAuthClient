@@ -14,6 +14,8 @@
 		A395477A1AE8CFDC00D9B21A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39547791AE8CFDC00D9B21A /* Images.xcassets */; };
 		A395477D1AE8CFDC00D9B21A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A395477B1AE8CFDC00D9B21A /* LaunchScreen.xib */; };
 		A39547891AE8CFDC00D9B21A /* PSOAuthClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39547881AE8CFDC00D9B21A /* PSOAuthClientTests.m */; };
+		A39547941AE8CFF100D9B21A /* PSOAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A39547931AE8CFF100D9B21A /* PSOAuthClient.m */; };
+		A395479B1AE8E2ED00D9B21A /* PSOAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A395479A1AE8E2ED00D9B21A /* PSOAuthWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		A39547821AE8CFDC00D9B21A /* PSOAuthClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSOAuthClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39547871AE8CFDC00D9B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39547881AE8CFDC00D9B21A /* PSOAuthClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSOAuthClientTests.m; sourceTree = "<group>"; };
+		A39547921AE8CFF100D9B21A /* PSOAuthClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOAuthClient.h; sourceTree = "<group>"; };
+		A39547931AE8CFF100D9B21A /* PSOAuthClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSOAuthClient.m; sourceTree = "<group>"; };
+		A39547951AE8E0C300D9B21A /* PSOAuthClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOAuthClientDelegate.h; sourceTree = "<group>"; };
+		A39547991AE8E2ED00D9B21A /* PSOAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOAuthWebViewController.h; sourceTree = "<group>"; };
+		A395479A1AE8E2ED00D9B21A /* PSOAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSOAuthWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,11 @@
 				A39547791AE8CFDC00D9B21A /* Images.xcassets */,
 				A395477B1AE8CFDC00D9B21A /* LaunchScreen.xib */,
 				A395476C1AE8CFDC00D9B21A /* Supporting Files */,
+				A39547921AE8CFF100D9B21A /* PSOAuthClient.h */,
+				A39547931AE8CFF100D9B21A /* PSOAuthClient.m */,
+				A39547951AE8E0C300D9B21A /* PSOAuthClientDelegate.h */,
+				A39547991AE8E2ED00D9B21A /* PSOAuthWebViewController.h */,
+				A395479A1AE8E2ED00D9B21A /* PSOAuthWebViewController.m */,
 			);
 			path = PSOAuthClient;
 			sourceTree = "<group>";
@@ -220,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39547751AE8CFDC00D9B21A /* ViewController.m in Sources */,
+				A395479B1AE8E2ED00D9B21A /* PSOAuthWebViewController.m in Sources */,
+				A39547941AE8CFF100D9B21A /* PSOAuthClient.m in Sources */,
 				A39547721AE8CFDC00D9B21A /* AppDelegate.m in Sources */,
 				A395476F1AE8CFDC00D9B21A /* main.m in Sources */,
 			);
