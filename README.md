@@ -14,5 +14,3 @@ A sample for Google and Facebook has been added to the project. Please have a lo
 Give it a spin and do let me know of any issues that you might find.
 
 Thanks!!
-
-*PS: I'm in the process of making it a Pod, will be up in a few days.*
